@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Suwak.QuotesPage"
+			 Padding="20">
+    <ContentPage.Content>
+		<StackLayout>
+			<Label x:Name="sliderLabel" Text="Font size: 16"></Label>
+			<Slider x:Name="slider" BackgroundColor="White" ThumbColor="Black" ValueChanged="slider_ValueChanged" Maximum="50" Minimum="16"></Slider>
+			<Label x:Name="quote" Text="The only way to do great work is to love what you do. - Steve Jobs"></Label>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
